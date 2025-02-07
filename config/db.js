@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGO_URI = 'mongodb://127.0.0.1:27017/messaging-app';
+const MONGO_URI = 'mongodb+srv://sdeepakncy:deepaksharma@cluster0.sdlfzzw.mongodb.net/messaging-app';
 
 mongoose.connect(MONGO_URI, {
     useNewUrlParser: true,
